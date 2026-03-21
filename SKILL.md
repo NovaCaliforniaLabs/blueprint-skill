@@ -103,6 +103,27 @@ CODEPATH | FAILURE | EXCEPTION | RESCUED? | TEST? | USER SEES
 +====================================================================+
 ```
 
+
+## One-Click Install
+
+### Option 1: GitHub Release (Recommended)
+```bash
+curl -L https://github.com/NovaCaliforniaLabs/blueprint-skill/releases/latest/download/blueprint-skill.zip -o blueprint.zip
+unzip blueprint.zip -d ~/.openclaw/workspace/skills/
+rm blueprint.zip
+```
+
+### Option 2: ClawMart Download
+After purchase on shopclawmart.com, download the package and extract to ~/.openclaw/workspace/skills/
+
+## Quality Checklist
+- ✅ SKILL.md complete with usage docs
+- ✅ All scripts functional (bin/*.sh)
+- ✅ Templates included (templates/)
+- ✅ Examples provided (examples/)
+- ✅ Attribution verified
+- ✅ Tested on macOS Apple Silicon
+
 ## Attribution
 
 Inspired by Garry Tan's gstack methodology for startup workflow optimization.
