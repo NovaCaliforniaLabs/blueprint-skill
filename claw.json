@@ -1,0 +1,18 @@
+{
+  "name": "blueprint",
+  "version": "1.0.0",
+  "description": "Engineering execution planning. Lock in architecture, data flow, diagrams, edge cases, test coverage. Use after vision approved, before implementation.",
+  "author": "NovaCaliforniaLabs",
+  "license": "MIT",
+  "permissions": ["read", "bash"],
+  "entry": "SKILL.md",
+  "tags": ["planning", "engineering", "architecture", "development"],
+  "price": 19,
+  "bundle": {
+    "name": "LaunchKit",
+    "price": 49,
+    "includes": ["compass", "blueprint", "liftoff", "mirror"]
+  },
+  "models": ["*"],
+  "minOpenClawVersion": "0.8.0"
+}
