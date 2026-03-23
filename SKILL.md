@@ -1,7 +1,7 @@
 ---
 name: blueprint
 description: Engineering execution planning for execution planning. Lock in architecture, data flow, diagrams, edge cases, test coverage. Use after CEO review approves the direction, before implementation begins.
-price: 19
+price: 0
 version: 1.0.0
 ---
 
@@ -102,27 +102,6 @@ CODEPATH | FAILURE | EXCEPTION | RESCUED? | TEST? | USER SEES
 | Implementation order | [phases]                                     |
 +====================================================================+
 ```
-
-
-## One-Click Install
-
-### Option 1: GitHub Release (Recommended)
-```bash
-curl -L https://github.com/NovaCaliforniaLabs/blueprint-skill/releases/latest/download/blueprint-skill.zip -o blueprint.zip
-unzip blueprint.zip -d ~/.openclaw/workspace/skills/
-rm blueprint.zip
-```
-
-### Option 2: ClawMart Download
-After purchase on shopclawmart.com, download the package and extract to ~/.openclaw/workspace/skills/
-
-## Quality Checklist
-- ✅ SKILL.md complete with usage docs
-- ✅ All scripts functional (bin/*.sh)
-- ✅ Templates included (templates/)
-- ✅ Examples provided (examples/)
-- ✅ Attribution verified
-- ✅ Tested on macOS Apple Silicon
 
 ## Attribution
 
